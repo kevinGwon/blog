@@ -15,7 +15,7 @@
 * Typescript
 * 라이브 채팅및 방송 서비스
 * 백오피스 개선
-* Regacy 코드개선
+* Regacy 코드 개선
 * 방송정보 서비스 개
 * Google Analytics
 * 라이브 방송 채팅 서비스 최적화
