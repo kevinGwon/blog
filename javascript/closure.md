@@ -37,7 +37,7 @@ fiveAdder(3);
 let threeAdder = sum(3);
 ```
 
-sum 함수를 호출하면 파라미터 base를 통해서 넘어온 값은 inClosure 변수에 저장된다. 그리고 내부 함수에서는 inClosure 변수를 참조한다. 이와 같은 코드가 실행될 때 스코프 체인이 생성되는 구조를 살펴보면 다음과 같다.
+sum 함수를 호출하면 파라미터 base를 통해서 넘어온 값은 inClosure 변수에 저장됩니다. 그리고 내부 함수에서는 inClosure 변수를 참조합니다. 이와 같은 코드가 실행될 때 스코프 체인이 생성되는 구조를 살펴보면 다음과 같습니다.
 
 ```text
 fiveAdder, threeAdder // global scope (A함수)
