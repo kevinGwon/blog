@@ -4,5 +4,5 @@
 
 ## Javascript
 
-* [클로저](javascript/undefined.md)
+* [클로저](javascript/closure.md)
 
