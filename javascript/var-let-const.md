@@ -2,11 +2,13 @@
 title: 'Javascript - var, let, const'
 date: '2019-12-15T22:13:33.000Z'
 category: javascript
+description: >-
+  Babel을 통하여 국내에서 ES6의 문법을 적극 활용하고 있는 시대를 걷고있습니다. Babel이 없었다면 ES5에 여전히 발목 잡혀 있는
+  개발자들이 많았을 것이라 생각이 듭니다. ES6이전 부터 Javascript의 개발의 길을 걷고 있다면 변수(var, let, cont)를
+  혼용해서 사용할 수 있다고 생각이 듭니다. 그래서 각 변수의 특징을 알아도록 하
 ---
 
 # var, let, const
-
-Babel을 통하여 국내에서 ES6의 문법을 적극 활용하고 있는 시대를 걷고있습니다. Babel이 없었다면 ES5에 여전히 발목 잡혀 있는 개발자들이 많았을 것이라 생각이 듭니다. ES6이전 부터 Javascript의 개발의 길을 걷고 있다면 변수\(var, let, cont\)를 혼용해서 사용할 수 있다고 생각이 듭니다. 그래서 각 변수의 특징을 알아도록 하겠습니다.
 
 ## Scope
 
