@@ -22,7 +22,7 @@ increase(); // 1
 increase(); // 2
 ```
 
-count의 변수는 outer의 로컬 변수이고, 내부에 함수를 선언하여 count를 1증가 시키는 향테로 inner변수에 할당하였다. 그리고 increase변수에 outer함수를 할당하여 increase 함수를 실행할 때마다 1증가된 값을 받아올 수 있다. count변수는 outer함수의 로컬 변수로써 외부에서 접근 할 수 없지만 increase 함수를 통하여 내부의 값을 받아올 수 있다. 이것이 privite형태이고 클로저의 기본 개념이다.
+count의 변수는 outer의 로컬 변수이고, 내부에 함수를 선언하여 count를 1증가 시키는 향테로 inner변수에 할당하였습니다. 그리고 increase변수에 outer함수를 할당하여 increase 함수를 실행할 때마다 1증가된 값을 받아올 수 있습니다. count변수는 outer함수의 로컬 변수로써 외부에서 접근 할 수 없지만 increase 함수를 통하여 내부의 값을 받아올 수 있습니다. 이것이 privite형태이고 클로저의 기본 개념입니다 .
 
 ## 스코프 체인
 
