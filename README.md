@@ -14,7 +14,7 @@
 * React
 * Typescript
 * 라이브 채팅및 방송 서비스
-* 백오피스 개선
+* 백오피스 개발
 * Regacy 코드 개선
 * 방송정보 서비스 개선
 * Google Analytics
