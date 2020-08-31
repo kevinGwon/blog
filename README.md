@@ -67,13 +67,9 @@
 * Webpack
 * Gulp
 
-## 정
+## 정보
 
-Email \)
+Email: [developerGwon@gmail.com](mailto:developerGwon@gmail.com)
 
-{% embed url="https://developerGwon@gmail.com" %}
-
-Github \)
-
-https://github.com/kevinGwon
+Github: [https://github.com/kevinGwon](https://github.com/kevinGwon)
 
