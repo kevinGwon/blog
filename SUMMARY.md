@@ -9,8 +9,6 @@
 
 ## React
 
----
-
-* [Props](props.md)
-* [useReducer와 context API함께 사용하기](usereducer-context-api.md)
+* [useReducer와 context API함께 사용하기](react/usereducer-context-api.md)
+* [Props](react/props.md)
 
