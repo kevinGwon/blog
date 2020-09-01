@@ -11,6 +11,6 @@
 
 ---
 
-* [Props](untitled.md)
+* [Props](props.md)
 * [useReducer와 context API함께 사용하기](usereducer-context-api.md)
 
