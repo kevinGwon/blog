@@ -2,6 +2,9 @@
 title: React - useReducer and dispatch context
 date: '2019-12-12T14:12:27.000Z'
 category: react
+description: >-
+  useReducer와 useState는 state 상태를 관리하는 목적에서 매우 유사합니다. 다만 Setter함수에 state를 정의하는
+  방식이 useReducer가 더 명확하게 보입니다.
 ---
 
 # useReducer와 context API함께 사용하기
