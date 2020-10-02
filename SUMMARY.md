@@ -2,14 +2,14 @@
 
 * [Front end developer](README.md)
 
+## Solution
+
+* [Download UI](solution/download-ui.md)
+
 ## Javascript
 
 * [var, let, const](javascript/var-let-const.md)
 * [클로저](javascript/closure.md)
-
-## Solution
-
-* [Download UI](solution/download-ui.md)
 
 ## React
 
