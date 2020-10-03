@@ -2,9 +2,6 @@
 title: React - useState
 date: '2019-12-08T20:13:31.000Z'
 category: react
-description: >-
-  useState는 Hooks의 기술중 하나이며 state값을 바꿀 수 있는 기능을 가지고 있습니다. 함수형 컴포넌트에서 useState는
-  사용할 수 없었지만 리액트 16.8버전 이후 사용이 가능합니다.
 ---
 
 # useState
