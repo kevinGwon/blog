@@ -6,13 +6,13 @@ description: >-
 
 # Download UI
 
-### Situation?
+## Situation?
 
 1. xhr\(XMLHttpRequest\)를 이용하여 다운로드 모션을 UI로 구현
 2. 다운로드를 위하여 특정한 버튼을 클릭할 경우 Modal에서 다운로드 진행
 3. 다운로드가 진행중인 과정에서 강제적으로 Modal을 닫을경우 에러를 발생
 
-### Why?
+## Why?
 
 다운로드 모션을 구현하기 위하여 xhr에 progress 이벤트를 등록하여 다운로드 진행 값을 받아오고 있는 상황에서 강제적으로 Component를 해제하면 Ummount 상태가 됩니다. Unmount된 곳에 progress 이벤트가 계속 발생되고 있기 때문에 아래와 같이 경고문을 받습니다.
 
@@ -20,7 +20,7 @@ description: >-
 
 위의 내용을 간단히 해석해 보면 Unmouted된 Component에 상태값을 업데이트 할 수 없다는 에러 메세지를 보여줍니다. 또한, 친절하게도 useEffect의 cleanup 함수를 이용하여 발생한 이벤트를 해제 하라고 가이드를 제공 합니다. 이러한 힌트를 바으로 어떻게 해결을 했는지 살펴 보겠습니다.
 
-### How to?
+## How to?
 
 React는 v16.8 이후로 Functional Component에서 Hook을 사용할 수 있으며 Lifecycle 또한 헨들링 할 수 있는 useEffect API를 제공합니다. useEffect cleanup 함수를 이용하여 위에서 이벤트를 구독하고 있던 내용을 해제 시켜주면 해당 이슈를 해결할 수 있습니다.
 
